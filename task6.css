@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    padding-bottom: 50px;
+    padding-top: 85px;
+}
+header{
+    background-color: darkturquoise;
+    height: 35px;
+    width: 100%;
+    padding: 5px 0 5px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+.top1{
+    height: 35px;
+    line-height: 35px;
+    width: 70px;
+    color: white;
+    font-size: 17px;
+    background-color: lightseagreen;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+.top2{
+    height: 35px;
+    line-height: 35px;
+    width: 70px;
+    font-size: 17px;
+    color: darkturquoise;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+.location{
+    background-image: url(".idea/img.png");
+    background-size: 47px 174px;
+    height: 22px;
+    width: 21px;
+    float: right;
+    background-position: 0 -64px;
+    position: absolute;
+    top: 11px;
+    right: 15px;
+    border: none;
+    outline: none;
+    background-color: darkturquoise;
+}
+.list{
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 45px;
+    background-color: white;
+}
+hr{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    font-size: 14px;
+    color: grey;
+    height: 40px;
+    line-height: 40px;
+    flex: 1;
+    text-align: center;
+}
+.xlk:hover .xz{
+    display: block;
+}
+.xz{
+    display: none;
+    border: grey solid 1px;
+}
+.tk:hover{
+    background-color: darkturquoise;
+}
+.line1{
+    width: 1px;
+    height: 30px;
+    margin: 5px 0;
+    background-color: lightgrey;
+    float: left;
+}
+.line2{
+    width: 1px;
+    height: 30px;
+    margin: 5px 0;
+    background-color: lightgrey;
+    float: right;
+}
+.background{
+    background-color: white;
+}
+.icon{
+    background-image: url(".idea/img.png");
+    background-size: 47px 174px;
+    height: 4px;
+    width: 6px;
+    float: right;
+    background-position: 0 0;
+    margin: 18px 5px 18px 0;
+}
+.ListContent{
+    height: 70px;
+    padding:10px 15px;
+}
+.DateIcon{
+    background-image: url(".idea/img.png");
+    background-size: 47px 174px;
+    height: 12px;
+    width: 12px;
+    background-position: 0 -32px;
+    margin: 4px 10px 0 0;
+    float: left;
+}
+.number{
+    font-size: 14px;
+    margin-left: 22px;
+    padding: 8px 0 8px 0;
+    height: 20px;
+}
+.text{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.information{
+    background-image: url(".idea/img.png");
+    background-size: 47px 174px;
+    height: 16px;
+    width: 9px;
+    float: right;
+    background-position: 0 -4px;
+    margin-top: 3px;
+}
+.price{
+    color: red;
+    font-size: 15px;
+    float: right;
+    margin-right: 21px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.date{
+    font-size: 14px;
+    color: gray;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.placeIcon{
+    background-image: url(".idea/img.png");
+    background-size: 47px 174px;
+    height: 11px;
+    width: 9px;
+    float: left;
+    background-position: 0 -20px;
+    margin: 4px 10px 0 0;
+}
+.place{
+    clear: left;
+}
+.servicePlace{
+    font-size: 13px;
+    color: gray;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+footer{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.ellipse{
+    background-color: darkturquoise;
+    border-radius: 50%;
+    height: 47px;
+    width: 47px;
+}
+.write{
+    background-image: url(".idea/img.png");
+    background-size: 47px 174px;
+    background-position: 0 -44px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 17px;
+    margin-left: 2px;
+
+
+}
+.homepage{
+    float: left;
+    position: absolute;
+    left: 85px;
+    padding-top: 7px;
+}
+.home{
+    background-image: url(".idea/img.png");
+    background-size: 47px 174px;
+    background-position: 0 -107px;
+    height: 20px;
+    width: 23px;
+    text-align: center;
+}
+.page{
+    color: darkturquoise;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 7px;
+}
+.myself{
+    float: right;
+    position: absolute;
+    right: 85px;
+    padding-top: 7px;
+}
+.my{
+    background-image: url(".idea/img.png");
+    background-size: 47px 174px;
+    background-position: 0 -86px;
+    height: 20px;
+    width: 21px;
+    text-align: center;
+}
+.self{
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 7px;
+}
